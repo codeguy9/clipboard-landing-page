@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+}
+
+.header {
+    width: 50%;
+    margin: 0 auto 150px auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.header h2 {
+    color: hsl(210, 10%, 33%);
+    padding-top: 30px;
+}
+
+.header p {
+    color: hsl(201, 11%, 66%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.cyan {
+    color: white;
+    background: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 0 15px 18px hsl(171, 57%, 91%);
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.cyan:hover {
+    background:  hsl(171, 82%, 56%)
+}
+
+.blue {
+    color: white;
+    background: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 0 15px 18px hsl(233, 44%, 89%);
+    cursor: pointer
+}
+
+.blue:hover {
+    background: hsl(233, 100%, 86%)
+}
+
+.snippets {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+
+}
+
+.snippets h3 {
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 30px;
+}
+
+.snippets p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+.imac-image {
+    display: flex;
+    position: relative;
+
+}
+
+.imac-image img {
+    position: absolute;
+    left: -100px;
+    display: block;
+    max-width: auto;
+}
+
+.imac-right {
+    width: 30%;
+    margin-left: 750px;
+    margin-top: 70px
+}
+
+.search h4 {
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+}
+
+.search {
+    padding-bottom: 50px;
+}
+
+.search p {
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5
+}
+
+.sync h4 {
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+}
+
+.sync {
+    padding-bottom: 50px;
+}
+
+.sync p {
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5
+}
+
+.history h4 {
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+}
+
+.history {
+    padding-bottom: 50px;
+}
+
+.history p {
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5
+}
+
+.clipboard {
+    width: 70%;
+    text-align: center;
+    margin: 200px auto;
+}
+
+.access {
+    width: 60%;
+    margin: 0 auto 150px auto
+}
+
+.access h3 {
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 30px;
+}
+
+.access p {
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5;
+
+}
+
+.workflow-titles {
+    text-align: center;
+
+}
+.workflow-titles h3 {
+    color: hsl(210, 10%, 33%); 
+    padding-bottom: 30px;
+}
+.workflow-titles p {
+    color:hsl(201, 11%, 66%)
+}
+
+.workflow {
+    width: 80%;
+    margin: 100px auto 200px auto;
+    display: flex;
+    justify-content: space-between
+
+}
+
+.workflow-div {
+    width: 30%;
+    text-align: center;
+}
+
+.workflow-div h5 {
+    color:hsl(210, 10%, 33%);
+    padding-top: 25px;
+    padding-bottom: 15px
+}
+
+.workflow-div p {
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+.sponsors {
+    width: 80%;
+    
+    margin: auto;
+}
+
+.sponsors img {
+    padding-right: 66px
+}
+
+.sponsors img:nth-last-child {
+    padding-right: 0
+}
+
+.iOS-and-Mac {
+    width: 50%;
+    margin: 200px auto;
+    text-align: center;
+
+}
+
+.iOS-and-Mac h3 {
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+}
+
+.iOS-and-Mac p {
+    color:hsl(201, 11%, 66%);
+    padding-bottom: 25px;
+    line-height: 1.5;
+}
+
+.footer {
+    background: hsl(0, 0%, 96%);
+    width: 90%;
+    margin: auto;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    color:hsl(201, 11%, 66%);
+    font-size: 20px;
+    width: 74%
+    
+}
+
+.footer-menu a h6 {
+    padding-right: 150px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer-menu a h6:hover {
+    color:hsl(171, 66%, 44%)
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+    margin:0 10px
+    
+    
+}
+
+.social-icons a img:hover {
+    color:hsl(171, 66%, 44%)
+}
+
+@media screen and (max-width: 500px) {
+
+    .imac-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+}
